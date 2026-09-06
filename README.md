@@ -1,13 +1,8 @@
-# Проверка заголовков"
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 
-## Для урока практикум
-
-Пример _курсива_ и **жирного** текста.
-
-### 3 уровень
-
-```
-mkdir my_project
-cd my_project
-git init
+%% стрелка без текста для примера: 
+  A --> B;
 ```
